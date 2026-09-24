@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dark mode -->
+    <color name="black">#FF000000</color>
+    <color name="background_dark">#FF492152</color>
+    <color name="on_background_dark">#FF31073A</color>
+    <color name="window_insets_dark">#FF190022</color>
+    <color name="button_dark_mode">#FFDCBCE3</color>
+
+
+    <!-- light mode -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_light">#FFDCBCE3</color>
+    <color name="on_background_light">#FFC4A2CB</color>
+    <color name="window_insets_light">#FFAC88B3</color>
+    <color name="button_light_mode">#FF492152</color>
+
+
+</resources>

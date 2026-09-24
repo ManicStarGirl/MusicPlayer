@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:viewportHeight="960"
+    android:viewportWidth="960"
+    android:tint="#000000"
+    android:width="24dp">
+    <group>
+        <!-- Clip path (punch out hole) first outline everything then add a hole-->
+        <clip-path
+            android:fillColor="#00FFFFFF"
+            android:pathData="
+                M0,0
+                V960
+                H960
+                V0
+                z
+
+                M875,700
+                A175,175 0 1,1 525,700
+                A175,175 0 1,1 875,700
+                z
+                " />
+        <!-- add the body & head -->
+        <!-- this is in the group with the hole, so itll apply the hole to it -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="
+                M280,320
+                A160,160 0 1,1 600,320
+                A160,160 0 1,1 280,320
+                z
+
+                M120,800
+                L120,688
+                A168,88 0 1,1 760,688
+                L760,800
+                z
+                " />
+    </group>
+    <!-- add the music note -->
+    <!-- this is outside the group, so the clip doesnt apply -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="
+            M740,400
+            L880,400
+            L880,480
+            L800,480
+            L800,700
+            A100,100 0 1,1 740,608
+            L740,400
+            z
+            " />
+
+
+</vector>

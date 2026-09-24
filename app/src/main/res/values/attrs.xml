@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- This "declares" your variable name and tells Android it's a color -->
+    <attr name="windowInsets" format="color" />
+    <attr name="appBackground" format="color" />
+    <attr name="onBackground" format="color" />
+    <attr name="appButton" format="color" />
+</resources>
